@@ -66,6 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
           output_string << "#{supply},"
         end
       end
+      puts output_string
     end
   end
 end
