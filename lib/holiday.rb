@@ -63,7 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
         if i == supplies.length - 1
           output_string << "#{supply}"
         else
-          output_string << "#{supply},"
+          output_string << "#{supply}, "
         end
       end
       puts output_string
