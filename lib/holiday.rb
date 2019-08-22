@@ -62,7 +62,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_name_array.collect do |part|
         part.capitalize!
       end
-      new_holiday_name = holiday_name_array.join
+      new_holiday_name = holiday_name_array.join(" ")
       output_string = "  #{new_holiday_name}: "
       supplies.each_with_index do |supply, i|
         if i == supplies.length - 1
