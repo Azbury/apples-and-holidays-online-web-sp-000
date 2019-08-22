@@ -62,6 +62,7 @@ def all_supplies_in_holidays(holiday_hash)
       supplies.each_with_index do |supply, i|
         if i == supplies.length - 1
           puts "#{supply}"
+          binding.pry
         else
           puts "#{supply},"
         end
