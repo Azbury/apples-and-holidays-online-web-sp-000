@@ -63,6 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
         puts "#{supply}"
       else
         puts "#{supply},"
+      end
     end
   end
 end
