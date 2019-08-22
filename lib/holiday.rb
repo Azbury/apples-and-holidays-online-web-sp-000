@@ -61,9 +61,9 @@ def all_supplies_in_holidays(holiday_hash)
       output_string = "#{holiday.to_s.capitalize!}:"
       supplies.each_with_index do |supply, i|
         if i == supplies.length - 1
-          puts "#{supply}"
+          output_string << "#{supply}"
         else
-          puts "#{supply},"
+          output_string << "#{supply},"
         end
       end
     end
